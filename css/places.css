@@ -1,0 +1,30 @@
+body {
+  margin: 0 0;
+
+}
+html {
+  margin: 0 auto;
+}
+
+.firstpage {
+  background-image: url('../images/breepink.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+h2 {
+  position: absolute;
+  font-family: "Voltaire", sans-serif;
+  font-size: 1.7em;
+  padding-left: 2em;
+  padding-top: 4em;
+}
+
+p {
+  display: inline-block;
+  font-family: "Special Elite", sans-serif;
+  font-size: 3em;
+  padding-left: 1em;
+  padding-top: 4em;
+}

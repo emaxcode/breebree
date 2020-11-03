@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  background-color:#cecbe0;
+}
+
+.firstpage {
+  background-color: #62c0b2;
+  height: 3em;
+  border-bottom: solid 3px white;
+}
+
+h1 {
+  color: black;
+  font-family: 'Voltaire', sans-serif;
+  letter-spacing: 2px;
+  font-size: 40px;
+  padding-left: 40%;
+  padding-top: 30px;
+}
+
+p {
+  font-family: 'Special Elite';
+  font-size: 20px;
+}
+h3 {
+  font-family: 'Voltaire', sans-serif;
+  padding-left: 50%;
+  font-size: 35px;
+}
+
+.breepink {
+  width: 380px;
+height:720px;
+padding-top: 1em;
+}
+
+
+.container {
+  display: flex;
+  margin-left: 10em;
+  padding-left: 14em;
+  margin-top: 1em;
+  height: 170px;
+
+}
+
+
+div.item {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 220px;
+  max-width: 240px;
+  width: 80%;
+  background: #000000;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+div.item * {
+  box-sizing: border-box;
+}
+
+div.item img {
+  max-width: 80%;
+  vertical-align: top;
+  height: 180px;
+}
+
+div.item i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  font-size: 34px;
+  color: #000000;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  background: #ffffff;
+
+}
+
+div.item a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+div.item.blue {
+  background-color: #ef308c;
+  width: 100px;
+}
+
+div.item.blue i {
+  color: #34495e;
+
+}
+
+div.item.red {
+  background-color: black;
+  width: 100px;
+
+}
+div.item.4 {
+  background-color: black;
+  width: 100px;
+}
+
+div.item.red i {
+  color: white;
+
+}
+
+div.item.green {
+  background-color: black;
+  width: 100px;
+}
+div.item.green i {
+  color: #16a085;
+}
+
+div.item:hover img {
+  opacity: 0.3;
+  filter: grayscale(100%);
+}
+
+div.item * {
+  transition: all .35s ease-in-out;
+}
+
+
+div.item i {
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 300ms 0ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+div.item:hover i {
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 300ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.footer {
+  position: sticky;
+  height: 10px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+@media (min-width: 40em) and (max-width: 59em) {
+
+}
+@media (max-width: 480px) {
+    body {
+        background-image: url(images/breepink.jpg);
+    }
+}
+@media
+@media only screen and (max-device-width: 480px) {
+
+    }
+    @media screen and (max-width:1024px) {
+  .firstpage {
+    margin: 0;
+    margin-left: 350px;
+  }
+}
